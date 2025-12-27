@@ -1,7 +1,17 @@
-# customer-support-ticket-triage
+# Project Title: Customer Support Ticket Triage System
  Week-1 Internship Project
- 
-# Workflow Overview
+
+## Project Description
+
+This project builds a rule-based customer support ticket triage system using Python to clean ticket data, classify issues, assign priorities, calculate SLA deadlines, and generate a final report. It demonstrates real-world data processing and business logic implementation.
+
+## Project Objective
+
+* Companies receive a large number of customer support messages daily. Some tickets are critical and require immediate attention, while others are routine.
+
+* The objective of this project is to automate ticket analysis and prioritization to help support teams respond efficiently and meet SLA commitments.
+
+## Project Workflow
 
 1. Dataset Loading & Exploration
 
@@ -55,7 +65,7 @@
    
    ▪︎ Exported the final processed dataset as a CSV file
 
-# Dataset
+## Dataset
 
    The dataset contains customer support ticket details including:
 
@@ -69,11 +79,11 @@
 
    The Ticket Description column is used as the primary text input for classification and prioritization.
 
-# Tools and Technologies Used
+## Tools and Technologies Used
 
-   ▪︎ Python
+   ▪︎ Python – Core programming language
    
-   ▪︎ Google Colab
+   ▪︎ Google Colab – A cloud-based Jupyter notebook environment used for project development and execution.
    
    ▪︎ Pandas – Data analysis and manipulation
    
@@ -83,7 +93,7 @@
    
    ▪︎ GitHub – Version control and project submission
 
-# OUTPUT 
+## OUTPUT 
 
 ▪︎ Cleaned and enriched ticket dataset
 
@@ -103,6 +113,6 @@
 
    - final_support_tickets.csv
 
-# Conclusion
+## Conclusion
  
 This project demonstrates how rule-based logic and structured data processing can be used to automate customer support ticket triaging. It reflects real-world engineering practices and serves as a strong foundation for future enhancements such as machine learning-based classification or dashboard visualization.
